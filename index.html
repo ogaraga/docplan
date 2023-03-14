@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>CSS-LAYOUT CHECKPOINT</title>
+</head>
+<body>
+
+    <nav>
+
+        <div class="mon">
+            <img src="docplana.svg" alt="doc-logo">
+        </div>
+
+        <p><dbo dir='rtl'>
+        <img src="symbol-docplan.png" width="20" height="15">docplanner-Group</dbo></p>
+
+        <div class="tue">
+            <ul>
+                <li class="nav-item dropdown">About-Us</li>
+                <li class="nav-item dropdown">Career</li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Department
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Marketing & PR</a></li>
+                      <li><a class="dropdown-item" href="#">Customer Service & Sales</a></li>
+                      <li><a class="dropdown-item" href="#">IT, Product, Data</a></li>
+                      <li><a class="dropdown-item" href="#">Finance & Administration</a></li>
+                      <li><a class="dropdown-item" href="#">HR and More...</a></li>
+                    </ul>
+                  </li>
+            </ul>
+        </div>
+    </nav>
+    <hr>
+    <!-- section comprising symbol and h2 tag -->
+    <section class="mid">
+        <img src="symbol-docplan.png" alt="docplanner logo">
+        <h1>Making the healthcare experience more human</h1>
+    </section>
+
+    <section>
+        <div class="row">
+            <div class="col">
+                <p>We want patients to find the perfect doctor and 
+                    book an appointment in the most easy way. 
+                    The patient journey should be enjoyable, and that's 
+                    why we are always next to them: to help them find the 
+                    best possible care. Anytime, anywhere.
+                </p>
+            </div>
+            <div class="col">
+                <p>We also help doctors to better manage their practice 
+                    and build their online reputation. With our integrated
+                     end-to-end solution, doctors are able not only to improve
+                     their online presence, but also to devote their time to 
+                     what really matters: their patients.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="kross">
+
+        <div class="card1">
+            <div class="card  bg-dark text-white">
+                 <i class="fa-sharp fa-solid fa-building"></i>
+                 <div class="card-body">
+                  <h5 class="card-title1">For clinics:</h5>
+                  <p class="card-text1">Deliver an exceptional patient experience in your clinic
+                .</p>
+                    <button class="btn btn-secondary dropdown-toggle"
+                     type="button" data-bs-toggle="dropdown" aria-expanded="false">Country
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Argentina</a></li>
+                        <li><a class="dropdown-item" href="#">Canada</a></li>
+                        <li><a class="dropdown-item" href="#">Barbados</a></li>
+                        <li><a class="dropdown-item" href="#">venezuela</a></li>
+                        <li><a class="dropdown-item" href="#">Antigua</a></li>
+                        <li><a class="dropdown-item" href="#">cameroun</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="card2">
+            <div class="card  bg-primary text-white">
+                 <i class="fa-solid fa-user"></i>
+                <div class="card-body">
+                 <h5 class="card-title1">For doctors:</h5>
+                <p class="card-text1">Save time managing visits and cut no-shows by half
+                </p>
+                <button class="btn btn-secondary dropdown-toggle"
+                type="button" data-bs-toggle="dropdown" aria-expanded="false">Country
+               </button>
+               <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Nigeria</a></li>
+                    <li><a class="dropdown-item" href="#">South Africa</a></li>
+                    <li><a class="dropdown-item" href="#">Mauritius</a></li>
+                    <li><a class="dropdown-item" href="#">Belarus</a></li>
+                    <li><a class="dropdown-item" href="#">USA</a></li>
+                    <li><a class="dropdown-item" href="#">Senegal</a></li>
+                </ul>
+                 </div>
+            </div>
+        </div>
+        
+        <div class="card3">
+            <div class="card bg-success text-white text-wrap">
+                <i class="fa-solid fa-users"></i>
+                     <div class="card-body">
+                      <h5 class="card-title1">For Patients:</h5>
+                      <p class="card-text1">Find a doctor, book a visit and solve any health-related doubt</p>
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Country
+               </button>
+               <ul class="dropdown-menu">
+                    <li class="dropdown-item">Senegal</li>
+                    <li class="dropdown-item">Congo</li>
+                    <li class="dropdown-item">Chile</li>
+                    <li class="dropdown-item">Peru</li>
+                    <li class="dropdown-item">Uruguay</li>
+                    <li class="dropdown-item">Comoros</li>
+                </ul>
+                 </div>
+            </div>
+        </div>
+    </section>
+    
+        <section class="mag">
+            <h2 class="pegs text-wrap">We are a global company with local culture</h2>
+           
+           <br> <img src="symbol-docplan.png" alt="" width="15" height="10"><a href="#"class="link1">ZnanyLekarz</a>
+            <img src="symbol-docplan.png" alt="" width="15" height="10"><a href="#"class="link2">Doctoralia</a>
+            <img src="symbol-docplan.png" alt="" width="15" height="10"><a href="#"class="link3">MioDottore</a>
+           <br>
+            <img src="symbol-docplan.png" alt="" width="15" height="10"><a href="#"class="link4">DoktorTakvimi</a>
+            <img src="symbol-docplan.png" alt="" width="15" height="10"><a href="#"class="link5">ZnamyLekar</a>
+            <img src="symbol-docplan.png" alt="" width="15" height="10"><a href="#"class="link6">Datenschutz</a>
+            <br>
+            <img src="tu.png" alt=" TUOTEM">
+            <a href="#" class="link7">Gipo </a>
+            <img src="cloud.png" alt="image cloud" width="50px" height="50px">
+            <img src="logo-feegow.png" alt="feegow">
+    
+        </section>
+        
+        <section class="nwoke">
+            <div class="row1">
+                <div class="col-2">
+                    <h2 class="text-success text-wrap">The world's biggest healthcare platform</h2>
+                    <p>We work from 9 offices all over the world, 
+                        bringin Docplanner Group to life in 13 countries</p>
+                    <img src="symbol-docplan.png" alt="logo" width="300" height="200">
+                </div>
+
+            </div>
+
+            <div class="row2">
+                <div class="col2">
+                    <div class="card1 bg-light">
+                        <img src="flag.png" class="card-img-top" alt="doc-flag">
+                        <div class="card-body">
+                            <figcaption>Leader in 13 Countries</figcaption>
+                           <p class="card-text text-black">Poland, Brazil, Mexico, Spain, Italy, Germany, Turkey, Colombia, Czech Republic, 
+                            Portugal, Argentina, Peru and Chile</p>
+                        </div>
+                     </div>
+                </div>
+
+                <div class="col3">
+                    <div class="card1 bg-light">
+                        <img src="visit-symbol.png" class="card-img-top" alt="visit logo">
+                        <div class="card-body">
+                            <figcaption class="text-success">15,000,000 appointments</figcaption>
+                          <p class="card-text">booked last month</p>
+                        </div>
+                    </div>
+                </div>
+                      
+                <div class="col4">
+                    <div class="card1 bg-light">
+                        <i class="fa-solid fa-user-group"></i>
+                        <div class="card-body">
+                            <figcaption class="text-success">90,000,000 patients</figcaption>
+                          <p class="card-text text-black">Visit our website each month.</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col5">
+                    <div class="card1 bg-light">
+                        <img src="patients.png" class="card-img-top" alt="Doctors available">
+                        <div class="card-body">
+                        <figcaption class="text-success">210,000 active doctors</figcaption>
+                        <p class="card-text text-black">trust our Solutions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section>
+            <div class="nig-1">
+                <h2 class="text-success">Improve the lives of millions. <br>
+                     Change yours forever.</h2>
+                <p>More than 2800 team mates share our same vision, <br>
+                     goals and passion. With offices in Warsaw, Barcelona,
+                      Munich, Istanbul, <br> Rome, Rio, Bologna, Mexico City and Curitiba, our search for great talent never stops.</p>
+            </div>
+
+            <div class="nig-2">
+                <div class="card-k">
+                    <img src="warsaw.png" class="cardy-img-top" alt="Warsaw pic">
+                    <div class="card-bodyy">
+                      <h3>Warsaw</h3>
+                      <button type="button" class="btn btn-primary">See Openings</button>
+
+                    </div>
+                  </div>
+
+                <div class="card-k">
+                    <img src="barcelona.png" class="cardy-img-top" alt="Barce pic">
+                    <div class="card-bodyy">
+                      <h3>Barcelona</h3>
+                      <button type="button" class="btn btn-primary">See Openings</button>
+                    </div>
+                </div>
+
+                <div class="card-k">
+                    <img src="mexico-city.png" class="cardy-img-top" alt="mex-pic">
+                    <div class="card-bodyy">
+                      <h3>Mexico-City</h3>
+                      <button type="button" class="btn btn-primary">See Openings</button>
+                    </div>
+                  </div>
+
+                <div class="card-k">
+                    <img src="istanbul.png" class="cardy-img-top" alt="istan">
+                    <div class="card-bodyy">
+                      <h3>Istanbul</h3>
+                      <button type="button" class="btn btn-primary">See Openings</button>
+                    </div>
+                  </div>
+
+                <div class="card-k">
+                    <img src="rome.png" class="cardy-img-top" alt="Rome pic">
+                    <div class="card-bodyy">
+                      <h3>Rome</h3>
+                      <button type="button" class="btn btn-primary">See Openings</button>
+                    </div>
+                  </div>
+
+                <div class="card-k">
+                    <img src="bologna.png" class="cardy-img-top" alt="Bologna">
+                    <div class="card-bodyy">
+                      <h3>Bologna</h3>
+                      <button type="button" class="btn btn-primary">See Openings</button>
+                    </div>
+                </div>
+
+                <div class="card-k">
+                    <img src="curitiba.png" class="cardy-img-top" alt="curitiba">
+                    <div class="card-bodyy">
+                      <h3>Curitiba</h3>
+                      <button type="button" class="btn btn-primary">See Openings</button>
+                    </div>
+                </div>
+
+                <div class="card-k">
+                    <img src="rio-janeiro.png" class="cardy-img-top" alt="Rio pic">
+                    <div class="card-bodyy">
+                      <h3>Riojaneiro</h3>
+                      <button type="button" class="btn btn-primary">See Openings</button>
+                    </div>
+                </div>
+
+                <div class="card-k">
+                    <img src="munich.png" class="cardy-img-top" alt="mun pic">
+                    <div class="card-bodyy">
+                      <h3>Munich</h3>
+                      <button type="button" class="btn btn-primary">See Openings</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <aside>
+            <p id="come">Sounds interesting? Join us now!</p>
+            <button type="button" class="btn btn-primary">See All Current Openings</button>
+        </aside>
+
+        <footer>
+            <p>We are leaders in 13 countries: Poland, Turkey, Spain, Italy, Germany, Czech Republic, Portugal, Mexico, Colombia, Brazil, Argentina, Peru and Chile
+
+                This site uses cookies to deliver services in accordance with this Privacy Policy. You can specify the conditions for storing or accessing cookies on your browser.
+                
+                www.docplanner.com &copy;2023</p>
+        </footer>
+</body>
+</html>
